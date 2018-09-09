@@ -1,0 +1,33 @@
+Computer state:
+       Memory State: 
+       0: 40
+       1: 12
+       2: 480
+       3: -12
+       4: LDI 40
+       5: ST X
+       6: LDI 12
+       7: ST Y
+       8: LDI 0
+       9: ST Z
+      10: ST C
+      11: LDA Z
+      12: LDB X
+      13: ADD
+      14: ST Z
+      15: LDI -1
+      16: LDB C
+      17: ADD
+      18: ST C
+      19: LDB Y
+      20: ADD
+      21: JZS 23
+      22: JMP 11
+      23: LDA Z
+    > 24: HLT
+
+         Accumulator: 480
+ Additional register: 12
+     Program counter: 24
+            Zero bit: 1
+        Overflow bit: 0
